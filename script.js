@@ -11,5 +11,5 @@ function insert_Row() {
   row.appendChild(cell2)
 
   let table = document.getElementById("sampleTable")
-  table.prepend(row)
+    table.insertBefore(row, table.rows[0]);
 }
